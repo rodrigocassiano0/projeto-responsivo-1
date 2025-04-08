@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.link-header {
+    color: #17233D;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.875px;
+    cursor: pointer;
+    margin-right: 32px;
+    transition: all 0.3s;
+}
+
+.link-header:hover {
+    background-color: lightgray;
+}
+
+.container {
+    margin-left: 42px;
+
+}
+
+.button-header {
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 32px;
+    transition: all 0.2s;
+}
+
+.button-header:hover {
+    opacity: 0.8;
+}
+
+.button-header:active {
+    opacity: 0.5;
+}
+
+img {
+    display: inline-block;
+    margin-left: 121px;
+    margin-top: 277px;
+}
+
+.caixa-txt {
+    display: inline-block;
+    margin-left: 97px;
+}
+
+h1 {
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+    width: 582px;
+}
+
+p {
+    width: 493px;
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-bottom: 55px;
+    margin-top: 47px;
+}
+
+.button-caixa-txt {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.button-caixa-txt:hover {
+    color: darkgreen;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        text-align: right;
+    }
+
+    .container-2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        margin-right: 15px;
+        margin-top: 16px;
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+    }
+
+    img {
+        display: flex;
+        margin: 60px auto;
+        max-width: 80%;
+        flex-direction: column;
+    }
+
+    .caixa-txt {
+        display: flex;
+        margin-left: 0;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.596px;
+        width: 50%;;
+        margin: auto;
+        margin-top: 124px;
+        width: 278px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        width: 50%;
+        margin: auto;
+        margin-top: 29px;
+        width: 304px;
+    }
+
+    .button-caixa-txt {
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        margin-top: 26px;
+    }
+}
