@@ -8,3 +8,8 @@
   <p>-HTML</p>
   <p>-CSS</p>
   <p>-Projeto responsivo :computer: :iphone:</p>
+
+
+<img src="https://github.com/rodrigocassiano0/projeto-responsivo-1/blob/master/assets/responsivo%201.PNG?raw=true">
+
+<img src="https://github.com/rodrigocassiano0/projeto-responsivo-1/blob/master/assets/responsivo%201%201.PNG?raw=true">
